@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -35,6 +36,7 @@
     <div class="overlay"></div>
     <!--============= ScrollToTop Section Ends Here =============-->
 
+    <div class="i18n" data-i18n="[html]content.body"></div>
 
     <!--============= Header Section Starts Here =============-->
     <header class="header-section header-white-dark">
@@ -55,25 +57,30 @@
                     <li>
                         <a href="about.html">About</a>
                     </li>
-                   
+
                     <li>
                         <a href="contact.html">contact</a>
                     </li>
-                    <li class="d-sm-none">
-                        <a href="#0" class="m-0 header-button">Get Sintesys</a>
-                    </li>
+
                 </ul>
+                <div class="header-right">
+                    <select class="select-bar" onchange="location = this.value;">
+                        <option value="index.html">EN</option>
+                        <option value="id-index.html">ID</option>
+                    </select>
+                </div>
                 <div class="header-bar d-lg-none">
                     <span></span>
                     <span></span>
                     <span></span>
                 </div>
                 <div class="header-right">
-                   
-                    <a href="https://play.google.com/store/apps/developer?id=Sintesys+ID" class="header-button d-none d-sm-inline-block">Get Sintesys</a>
+
+                    <a href="https://demo.sintesys.id" class="header-button d-none d-sm-inline-block">Sintesys Demo</a>
                 </div>
             </div>
         </div>
+
     </header>
     <!--============= Header Section Ends Here =============-->
 
