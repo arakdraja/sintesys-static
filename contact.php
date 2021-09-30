@@ -7,9 +7,9 @@ $phone = $_POST['phone'];
 $message = $_POST['message'];
 
 
-$to = 'pixeltheme96@gmail.com.@gmail.com';
+$to = 'arakdraja@gmail.com';
 
-$from = 'rock@mosto.com';
+$from = 'no-reply@sintesys.id';
 
 	if($name && $email && $surename && $phone && $message) {
 			$headers = "From:  $from \r\n";
